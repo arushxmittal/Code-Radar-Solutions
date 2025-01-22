@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,bSum;
+    int a,b,Sum;
     scanf("%d", &a);
     scanf("%d",&b);
     Sum=0;
