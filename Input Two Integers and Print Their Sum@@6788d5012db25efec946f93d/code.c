@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int myint;
-    scanf("%i\t", myint);
-    printf("Sum: %i\t", myint);
+    int a,b Sum;
+    scanf("%d", &a);
+    scanf("%d",&b);
+    Sum=0;
+    Sum=a+b;
+    printf("Sum: %d", Sum);
     return 0;
 }
