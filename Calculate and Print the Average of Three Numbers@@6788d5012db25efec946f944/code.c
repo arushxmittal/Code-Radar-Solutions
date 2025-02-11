@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-
 int main(){
-    float radius;
-
-    scanf("%f", &radius);
-    float area = 3.14*radius*radius;
-    printf("Area: %.2f", area);
+    int firstInt;
+    int secondInt;
+    int thirdInt;
+    scanf("%d\t", &firstInt);
+    scanf("%d\t", &secondInt);
+    scanf("%d", &thirdInt);
+    float avg = (float)((firstInt + secondInt + thirdInt)/3.0);
+    printf("Average: %.2f", avg);
     return 0;
-    
 }
