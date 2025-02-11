@@ -1,25 +1,19 @@
 #include <stdio.h>
 
 int main(){
-    char grade;
-    scanf("%c", &grade);
-    if(grade =='A'){
-        printf("Excellent");
+    char light;
+    scanf("%c",&light);
+    if(light =='R'){
+        printf("Stop");
     }
-    else if(grade=='B'){
-        printf("Good");
+    else if(light=='G'){
+        printf("Go");
     }
-    else if(grade == 'C'){
-        printf("Average");
-    }
-    else if(grade=='D'){
-        printf("Below Average");
-    }
-    else if(grade=='F'){
-        printf("Fail");
+    else if(light =='Y'){
+        printf("Slow Down");
     }
     else{
-        printf("Invalid grade");
+        printf("Invalid input");
     }
     return 0;
 }
