@@ -2,7 +2,7 @@
 
 int setbit(int num, int n) {
     return num | (1 << n);
-
+}
 int main() {
     int num, n;
     scanf("%d", &num);
